@@ -1,0 +1,123 @@
+body{
+    background-image: url(images/bgLoginTotal.png);
+    background-size: 100%;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    padding-bottom: 2px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login{
+    max-width: 550px;
+    background: url(images/bgLogin.jpg);
+    opacity: 0.9;
+    flex-grow: 1;
+    padding: 30px 80px;
+    box-shadow: 0px 0px 17px 6px rgba(81, 71, 71, 0.8);
+}
+
+.login_heading{
+    font-size: 35px;
+    color: rgb(18, 17, 17);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.login_group{
+    margin: 15px 0px 25px 0px;
+}
+
+.login_group i {
+    color: rgb(1, 1, 1);
+    font-size: 14px;
+    padding: 22px 20px 0px 12px;
+    position: absolute;
+}
+
+.input{
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    width: 100%;
+    padding: 12px 40px 12px 40px;
+    margin: 8px 0;
+    border: 1px solid #282727;
+    border-radius: 10px;
+    
+}
+
+.input::placeholder{
+    font-size: 14.5px;
+}
+
+#eye i{
+    padding: 0px;
+}
+
+.login_submit{
+    border: none;
+    background: rgb(168, 178, 178);
+    color: black;
+    font-size: 18px;
+    width: 40%;
+    padding: 18px 0px;
+    margin: 20px 160px 25px;
+    border-radius: 10px;
+}
+
+.login_submit:hover{
+    background-color: rgb(117, 126, 126);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+label{
+    color: rgb(0, 0, 0);
+}
+
+
+.rmb-forgot a{
+    color: rgb(0, 0, 0);
+    float: right;
+}
+
+.rmb-forgot a:hover{
+    font-weight: bold;
+}
+
+.rmb-forgot{
+    font-size: 18px;
+}
+
+.sign_up{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-left: 160px;
+    font-size: 17px;
+}
+
+.sign_up a{
+    color: rgb(44, 41, 93); 
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+
+
+
+
+
+
